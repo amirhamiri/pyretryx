@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyretryx"
+version = "0.1.0"
+description = "Simple and powerful retry decorator for Python"
+authors = [
+  { name="Amir" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+keywords = [
+  "retry",
+  "backoff",
+  "async",
+  "python",
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
